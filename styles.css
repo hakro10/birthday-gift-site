@@ -1,0 +1,117 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+
+body {
+	background: linear-gradient(#a2d2ff, #efb0c9);
+	font-family: "Happy Monkey", cursive;
+	margin: 0;
+	text-align: center;
+	font-weight: 400;
+	color: #ffffff;
+	text-shadow: 0 0 1px black;
+}
+
+#nick-pic {
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #efb0c9;
+}
+
+.h-text {
+	text-shadow: 0 0 1px black;
+}
+
+#bday-age {
+	background-color: #efb0c9;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 20px 0 0 0;
+}
+#bday-date {
+	background: #efb0c9;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 10px 0 0 0;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*
+gift box section
+*/
+
+.gift-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+.gift-box {
+	width: 400px;
+	height: 400px;
+	border: 5px solid;
+	border-radius: 10px;
+	background-image: url(images/gift-cover.jpg);
+	background-size: cover;
+}
+.h2-gift-box {
+	margin-bottom: 0;
+}
+
+.gift-box:hover {
+	background-image: url(images/happy.gif);
+}
+/*
+reaction box
+*/
+#reaction:hover {
+	background-image: url(images/hot.gif);
+}
+/*
+genius box
+*/
+#genius:hover {
+	background-image: url(images/genius.gif);
+}
+
+/*
+badass box
+*/
+#badass:hover {
+	background-image: url(images/badass.gif);
+}
+
+/*
+cheers box
+*/
+#cheers {
+	height: 200px;
+}
+#cheers:hover {
+	background-image: url(images/cheers.gif);
+}
+
+/*
+footer
+*/
+footer {
+	width: 400px;
+	margin: 40px auto 20px auto;
+	font-style: italic;
+}
+a {
+	color: white;
+}
